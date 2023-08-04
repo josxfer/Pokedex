@@ -108,5 +108,6 @@ img {
 @media screen and (max-width: 720px){
   .pokemon-container{
     grid-template-columns: 1fr 1fr;
+    justify-content: center;
   }
 }
