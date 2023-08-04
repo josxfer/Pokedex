@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pokedex</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <script src="script.js"></script>
-</body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet"/>
+  </head>
+  <body>
+    <h1 class="title">Pokedex</h1>
+    <input type="text" id="pokemon-search" placeholder="Buscar Pokemon por nombre" />
+    <div class="pokemon-container"></div>
+    <div class="modal-overlay" id="modal">
+      <div class="modal-content">
+        <span class="close-button" id="close-modal">&times;</span>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
 </html>
